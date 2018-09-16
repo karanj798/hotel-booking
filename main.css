@@ -1,0 +1,251 @@
+ body {
+	background: #eee;
+    font-family: 'Raleway', sans-serif;
+}
+.right-flow{
+	float: right;
+}
+
+#logo{
+	width: 100px;
+	height: 40px;
+}
+
+.nav-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+img {
+	width: 275px;
+	height: 183px;
+}
+.nav-bar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.nav-bar .options:hover {
+	background-color: #ddd;
+	color: black;
+}
+.nav-bar .options.active {
+	background-color: #4CAF50;
+	color: white;
+}
+.options {
+	float: right !important;
+	padding-top: 25px !important;
+}
+form {
+	width: 650px;
+	margin: 1em auto;
+	padding: 2em 2em 4em 2em;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	font-size: 21pt;
+}
+
+.wide {
+	width: 1050px;
+	margin: 1em auto;
+	padding: 2em 2em 4em 2em;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	font-size: 21pt;
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid gray; 
+    background-color: #fafafa; 
+	padding-top: 0.5em;
+	width: 50%;
+	font-size: 16pt;
+	font-family: 'Raleway', sans-serif;
+	outline: none;
+}
+
+select {
+	border: none;
+	border-bottom: 2px solid gray; 
+	width: 50%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 21pt;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: url("res/down-arrow.png") no-repeat right;
+	outline: none;
+}	
+
+input[type=text]{
+	border: none;
+	border-bottom: 2px solid gray; 
+    background-color: #fafafa; 
+	padding-top: 0.5em;
+	width: 50%;
+	font-size: 16pt;
+	font-family: 'Raleway', sans-serif;
+	outline: none;
+}
+
+input[type=number]{
+    border: none;
+	border-bottom: 2px solid gray; 
+    background-color: #fafafa; 
+	padding-top: 0.5em;
+	width: 50%;
+	font-size: 16pt;
+	font-family: 'Raleway', sans-serif;
+	outline: none;
+}
+
+/* Removes arrows from input field in Chrome like browsers */
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+/* Removes arrows from input field in Mozilla Firefox */
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+input[type=checkbox], input[type=radio]{
+	width: auto;
+}
+
+.error{
+	font-size: 12pt;
+	font-style: italic;
+	color: red;
+	padding: 20px;
+
+}
+
+.noerror {
+	display: none;
+}
+
+#usr-msg{
+	font-size: 20pt;
+	font-style: italic;
+	font-style: bold;
+	text-align: center;
+	color: red;
+	padding: 20px;
+}
+
+button{
+	outline: 0;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	background: 0;
+	width: 240px;
+	border: 2px solid #e3e3e3;
+	padding: 20px 0;
+	font-size: 24px;
+	line-height: 1;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.3s ease;
+}
+button:hover {
+	color: #03A9F4;
+	border-color: #03A9F4;
+}
+
+button:active {
+	font-weight: 600;
+	color: white;
+	background-color: #03A9F4;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    width: 100%;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    /*border: 1px solid #888;*/
+    width: 25%; /* Could be more or less, depending on screen size */
+    height: 350px;
+}
+/* Modal Content/Box */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 27%; /* Could be more or less, depending on screen size */
+    height: 525px;
+}
+
+.modal-content3, .modal-content4 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 25%; /* Could be more or less, depending on screen size */
+    height: 25px;
+    align-content: center;
+    text-align: center;
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute !important;
+    right: 690px;
+	top: 175px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+.format{
+	width: 100% !important;
+    padding: 12px 20px !important;
+    margin: 8px 0 !important;
+    display: inline-block !important;
+    border: 1px solid #ccc !important;
+    box-sizing: border-box !important;
+}
