@@ -23,4 +23,4 @@ mysql -u [USERNAME] -p database_name < hotel_db.sql
 Open `http://localhost:80/hotel-booking`
 
 ## Live Demo
-`https://bookmy-hotel.herokuapp.com/`
+https://bookmy-hotel.herokuapp.com/
